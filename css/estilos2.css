@@ -1,6 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+*{padding: 0;
+    margin: 0;}
+
+       
+.portada{
+       width: 100%;
+        text-align: center;
+        height: auto;
+	background-color: #FFDB2E
+     }
+
 form {display: flex;
     flex-direction: column; background-color: transparent;  
     }
