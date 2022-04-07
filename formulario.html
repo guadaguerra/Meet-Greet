@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos2.css">
+</head>
+	<section>
+		
+		<h3> Completa este formulario con tus datos para poder participar! </h3>
+		  
+<form method="post" action="respuesta.html"> 
+			
+	<p><label for="nombre"> Nombre </label><input type="text" name= "nombre" required placeholder="Nombre"></p>
+	
+			
+	  <p><label for="apellido"> Apellido </label><input type="text" name= "apellido" required placeholder="Apellido"></p>
+			
+	<p><label for="email"> Correo electronico</label> <input type="email" name="email" required placeholder="email"></p>
+			
+	  <p> <label for="fecha"> Fecha de Nacimiento </label> <input name="fecha" type="date" max="2021-30-10"> </p>
+	 <p> <label for="pais">Pais:</label>
+		  <select name="pais"> 
+			  <option value="-1"> Seleccionar</option>
+			  <option value="ARG"> Argentina</option>
+			  <option value="BRA"> Brasil</option>
+			  <option value="CHI"> Chile</option>
+			  <option value="URU"> Uruguay</option>
+			  <option value="OTRO"> Otro</option>
+			  </select>
+		 </p>
+	 <p><label for="Decinos porque queres venir">¿Porque queres venir?</label> <textarea name="dejanos tu opinion" rows="3" id="dejanos tu opinion" > </textarea>
+			
+	  </p>
+			
+	  <p><label> </label><input type="submit" name="registrate" value="Registrate"> </p>
+			
+	  </form>
+
+	</section>
+		
+<body>
+</body>
+</html>
